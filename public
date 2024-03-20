@@ -1,0 +1,39 @@
+"https://offloadmedia.feverup.com/madridsecreto.co/wp-content/uploads/2022/07/11093212/shutterstock_296841734-1.jpg" alt=ref"madrid";
+"https://i.redd.it/gqehvcd89xv41.jpg" alt=ref "Barcelona"
+"https://hablemosdereligion.com/wp-content/uploads/2019/12/catedral-de-leon-2.jpg" alt=ref "leon"
+"https://www.lavanguardia.com/r/GODO/LV/p6/WebSite/2019/09/18/img_lbernaus_20190509-115907_imagenes_lv_terceros_istock-467787426_4_6_2135837196.jpg" alt=ref "Cordoba";
+ 
+ "https://www.sansebastianturismoa.eus/images/tematicos-2/peine-del-viento-temporal.jpg"alt=ref"San Sebastian";
+ "https://th.bing.com/th/id/OIP.c2yOLkoJJxuGo4_nEZc3-wHaE8?w=273&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt=ref"Toledo"
+ {
+        Ciudad: "San sebastian",
+        Monumento: "La rosa de los vientos",
+        Comida : "Tortilla de Bacalao",
+        foto:
+        
+    },
+   https://png.pngtree.com/png-vector/20220807/ourmid/pngtree-night-mount-landscape-icon-png-image_6102639.png   icono de paisage 
+
+   const main = document.querySelector("main");
+const printCiudades = () => {
+  const section = document.createElement("section");
+  for (const Ciudad of Ciudades) {
+    section.innerHTML += ` 
+    const article = document.createElement("article")
+    
+    <article>
+       <h3>${Ciudad.Ciudad}</h3>;
+        <h4>${Ciudad.Monumento} - $ comida tipica: {Ciudad.Comida}</h4>;
+    <img src=${Ciudad.foto} alt=${Ciudad.foto}/>;
+  </article>`
+  }
+  main.appendChild(section)
+};
+const Ciudadeslink = document.querySelector("#Ciudades");
+Ciudadeslink.addEventListener("click", () => {
+  printCiudades();
+});
+
+<a href="https://www.google.com/" target="_blank">Google</a>
+
+
